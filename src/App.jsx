@@ -30,17 +30,17 @@ function App() {
   },
   {
     id: 3,
-    description: "No tengas miedo, será genial.",
+    description: "No tengas miedo.",
     img: "https://i.pinimg.com/originals/e1/c3/88/e1c388133e0f998e25bb17c837b74a14.gif"
   },
   {
     id: 4,
-    description: "Confía en mí, será divertido.",
+    description: "Confía en mí.",
     img: "https://media.tenor.com/Bn88VELdNI8AAAAi/peach-goma.gif"
   },
   {
     id: 5,
-    description: "No tengas dudas, te hará sonreír.",
+    description: "No tengas dudas.",
     img: "https://i.pinimg.com/originals/c6/b3/0d/c6b30d1a2dc178aeb92de63295d4ae64.gif"
   },
   {
