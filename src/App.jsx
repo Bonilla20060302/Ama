@@ -89,7 +89,7 @@ function App() {
       {
         !valueSi ? (
           <div className="p-5">
-            <h1 className="text-white font-bold text-5xl text-center">¿me das permiso para salir mama?</h1>
+            <h1 className="text-black font-bold text-5xl text-center">¿me das permiso para salir mama?</h1>
             <img src={Object.keys(randomValor).length === 0 ?
               "https://i.pinimg.com/originals/db/aa/c1/dbaac13f6278b91a15e480752b8a7242.gif" : randomValor.img} alt="salir mama" className="mx-auto" width={300} height={300} />
             <div className="grid grid-cols-1 md:grid-cols-2 mt-10 gap-5 items-center">
@@ -106,7 +106,7 @@ function App() {
                 Si
               </button>
               <button
-                className="bg-red-500 text-white font-bold p-2 rounded-md text-xl"
+                className="bg-red-500 text-black font-bold p-2 rounded-md text-xl"
                 onClick={randomResponse}
                 disabled={imagenCargada} // Deshabilita el botón si la imagen no se ha cargado
               >
@@ -117,7 +117,7 @@ function App() {
           </div>
         ) : (
           <div className="flex justify-center items-center flex-col space-y-10">
-            <h1 className="text-4xl text-white font-bold">gracias ama te prometo no volver a llegar tarde❤️</h1>
+            <h1 className="text-4xl text-black font-bold">gracias ama te prometo no volver a llegar tarde❤️</h1>
             <img src="https://i.pinimg.com/originals/9b/dc/c6/9bdcc6206c1d36a37149d31108c6bb41.gif" alt="" className="mx-auto" />
             <span hidden>{document.title = 'gracias ama te prometo no volver a llegar tarde❤️'}</span>
           </div>
