@@ -102,7 +102,7 @@ function App() {
                   confettiNumber: 80,
                 })
 
-              }} className={`bg-green-500 text-white font-bold p-2 rounded-md text-xl h-${agrandar}`} style={{ height: agrandar }}>
+              }} className={`bg-green-500 text-black font-bold p-2 rounded-md text-xl h-${agrandar}`} style={{ height: agrandar }}>
                 Si
               </button>
               <button
