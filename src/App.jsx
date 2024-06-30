@@ -7,7 +7,7 @@ function App() {
   const [randomValor, setRandomValor] = useState({})
 
   const [imagenCargada, setImagenCargada] = useState(false);
-  const [agrandar, setAgrandar] = useState(11)
+  const [agrandar, setAgrandar] = useState(15)
 
 
   const [valueSi, setValueSi] = useState(false)
